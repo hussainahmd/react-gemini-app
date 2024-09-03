@@ -33,6 +33,16 @@ body {
   background-size: cover;
 }
 
+.heading{
+  text-align: center;
+  border: 3px solid;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  backdrop-filter: blur(100px);
+  background: linear-gradient(0deg, #702d68, #2e6fba) no-repeat center/cover;
+}
+
 .search-section {
   display: flex;
   flex-direction: column;
@@ -58,7 +68,7 @@ body {
 }
 
 .search-section::after,
-.search-section::before {
+.search-section::before{
   content: '';
   position: absolute;
   width: 100%;

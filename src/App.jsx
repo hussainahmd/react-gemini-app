@@ -92,6 +92,7 @@ function App() {
     return (
         <>
             <div className="app">
+                <h1 className="heading">Gemini Image</h1>
                 <section className="search-section">
                     <div className="image-container">
                         <label htmlFor="files" className='upload-label'>
