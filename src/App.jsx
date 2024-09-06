@@ -81,7 +81,7 @@ function App() {
     }
 
     useEffect(() => {
-        // Cleanup the URL when the component is unmounted or when the image changes
+        // Cleanup the URL when the component is unmounted or when  the image changes
         return () => {
             if (imageURL) {
                 URL.revokeObjectURL(imageURL)
